@@ -1,0 +1,13 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+  "settings":
+  {
+    "convert_tab_to_spaces": true,
+    "tab_size": 2
+  }
+}
