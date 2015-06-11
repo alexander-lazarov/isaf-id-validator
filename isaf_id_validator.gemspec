@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'isaf_id_validator'
-  s.version = '0.0.1'
+  s.version = '0.0.2'
   s.authors = ['Alexander Lazarov']
   s.description = 'An ISAF ID validator for Rails 4. See homepage for details: https://github.com/alexander-lazarov/isaf_id_validator'
   s.email = 'alexander.lazaroff@gmail.com'
@@ -17,6 +17,9 @@ Gem::Specification.new do |s|
   s.add_dependency('activemodel', '>= 0')
   s.add_development_dependency('rubysl', '~> 2.0') if RUBY_ENGINE == 'rbx'
 
-  s.add_development_dependency('rake')
-  s.add_development_dependency('rspec', '>= 0')
+  s.add_development_dependency('rspec', '>= 2.11')
+  s.add_development_dependency('ruby', '>= 1.9')
 end
+
+
+curl -u qrush https://rubygems.org/api/v1/api_key.yaml > ~/.gem/credentials; chmod 0600 ~/.gem/credentials
