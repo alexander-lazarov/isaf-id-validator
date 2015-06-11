@@ -12,6 +12,8 @@ Gem::Specification.new do |s|
   s.require_paths = %w(lib)
   s.summary = 'An ISAF ID validator for Rails 4.'
 
+  s.license = 'MIT'
+
   s.add_dependency('activemodel', '>= 0')
   s.add_development_dependency('rubysl', '~> 2.0') if RUBY_ENGINE == 'rbx'
 
