@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'isaf_id_validator'
-  s.version = '0.0.3'
+  s.version = '0.1.0'
   s.authors = ['Alexander Lazarov']
   s.description = 'An ISAF ID validator for Rails 4. See homepage for details: https://github.com/alexander-lazarov/isaf_id_validator'
   s.email = 'alexander.lazaroff@gmail.com'
