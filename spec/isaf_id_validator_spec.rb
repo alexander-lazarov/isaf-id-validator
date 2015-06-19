@@ -44,6 +44,7 @@ describe IsafIdValidator do
         'BULAL0',
         'BULAL01',
         'BUAL01',
+        'ZZZAL1', # valid format but country code does not exist
         'BUlAL1A',
         'АСДФГ1'
       ].each do |isaf_id|
