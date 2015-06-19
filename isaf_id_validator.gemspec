@@ -15,8 +15,8 @@ Gem::Specification.new do |s|
   s.license = 'MIT'
 
   s.add_dependency('activemodel', '>= 0')
+  s.add_dependency('worldlite', '>=0')
   s.add_development_dependency('rubysl', '~> 2.0') if RUBY_ENGINE == 'rbx'
 
   s.add_development_dependency('rspec', '>= 2.11')
-  s.add_development_dependency('ruby', '>= 1.9')
 end
