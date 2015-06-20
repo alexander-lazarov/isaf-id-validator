@@ -4,16 +4,9 @@ class IsafIdValidator < ActiveModel::EachValidator
   @@default_options = {}
 
   def self.valid?(value, options = {})
-    value = value.to_s.upcase
-    regexp = /^([A-Z]{3})([A-Z]{2})([1-9][0-9]*)$/
+    data = /^([A-Z]{3})([A-Z]{2})([1-9][0-9]*)$/.match( value.to_s.upcase )
 
-    data = regexp.match(value)
-
-    if !data
-      return false
-    end
-
-    NormalizeCountry.to_a(:ioc).include?(data[1])
+    data && NormalizeCountry.to_a(:ioc).include?(data[1])
   end
 
   def self.default_options
