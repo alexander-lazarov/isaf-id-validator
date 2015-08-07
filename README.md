@@ -1,5 +1,7 @@
 # Readme
 
+[![Gem Version](https://badge.fury.io/rb/isaf_id_validator.svg)](http://badge.fury.io/rb/isaf_id_validator)
+
 This gem is validator for [ISAF Sailor ID](http://www.sailing.org/isafsailor).
 It works with `Rails 4` but it should work with `Rails 3` too.
 
